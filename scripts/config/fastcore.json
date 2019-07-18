@@ -1,0 +1,18 @@
+{
+  "default_penalty": 10,
+  "epsilon": 1e-4,
+  "scaling_factor": 1e5,
+  "tolerance": 1e7,
+  "consistency_check": true,
+  "debug_mode": false,
+  "core_rxn_cutoff": 3,
+  "conf_penalty_map": {
+    "3": 0,
+    "2": 0,
+    "1": 1,
+    "0": 10,
+    "-1": 20
+  }
+}
+
+
